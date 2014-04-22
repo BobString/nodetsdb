@@ -1,6 +1,6 @@
 var http = require('http');
 
-function Nodetsdb(configuration){
+var Nodetsdb = function(configuration){
     if(!configuration.host || !configuration.port){
         throw 'Please provide a host and a port';
     }
@@ -46,3 +46,5 @@ function Nodetsdb(configuration){
      
     }
 }
+
+module.exports = Nodetsdb;

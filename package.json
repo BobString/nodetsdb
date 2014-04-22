@@ -1,0 +1,23 @@
+{
+  "name": "nodetsdb",
+  "version": "0.1.0",
+  "description": "Simple Node module to get datapoints from an OpenTSDB database",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BobString/nodetsdb.git"
+  },
+  "keywords": [
+    "OpenTSDB",
+    "tsdb"
+  ],
+  "author": "Roberto Martin <robert.90@gmail.com> (http://about.me/robertomartin)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/BobString/nodetsdb/issues"
+  },
+  "homepage": "https://github.com/BobString/nodetsdb"
+}
